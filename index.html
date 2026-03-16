@@ -1,0 +1,59 @@
+
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="UTF-8">
+<title>Wohnprojekt Präferenz Tool</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<div id="topbar">
+<h1>Wohnprojekt Präferenz Tool</h1>
+<div id="helpBtn">?</div>
+</div>
+
+<div id="capture">
+
+<div id="axis">
+<div>Abneigung</div>
+<div>Zuneigung</div>
+</div>
+
+<div id="container">
+<div id="labels"></div>
+
+<div id="gridWrapper">
+<div id="grid"></div>
+<canvas id="flowCanvas"></canvas>
+</div>
+</div>
+
+</div>
+
+<button id="download">PNG herunterladen</button>
+
+<div id="tooltip"></div>
+
+<div id="helpModal">
+<div id="helpContent">
+<h2>How‑To</h2>
+<p>
+Du kannst hier deine Wohnprojektpräferenzen verbindlichen. Es geht um graduelle Zu‑ bis Abneigung
+in den gelisteten Kategorien. Du kannst in jeder Zeile die Kästchen anklicken, die deine
+Einstellung am meisten repräsentieren. Wenn du zB starke Abneigung gegen "Land" hast,
+kannst du in dieser Zeile das Kästchen ganz links anklicken.
+Du kannst auch mehrere aneinanderhängende Kästchen auswählen (bis zu 3),
+wenn deine Einstellung breiter/weicher ist.
+Einzelne Kategorien sind weniger auf Zu‑ oder Abneigung gestimmt,
+sondern auf bestimmte Werte. Diese werden erklärt, wenn du über den Titel hoverst.
+</p>
+<button id="closeHelp">Schließen</button>
+</div>
+</div>
+
+<script src="https://html2canvas.hertzen.com/dist/html2canvas.min.js"></script>
+<script src="script.js"></script>
+
+</body>
+</html>
