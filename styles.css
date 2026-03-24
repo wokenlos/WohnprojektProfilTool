@@ -61,7 +61,7 @@ position:relative;
 #grid{
 display:grid;
 grid-template-columns:repeat(6,60px);
-grid-template-rows:repeat(12,54px);
+grid-template-rows:repeat(14,54px);
 border:6px solid black;
 background:linear-gradient(to right, orange, turquoise);
 position:relative;
@@ -93,7 +93,7 @@ pointer-events:none;
 }
 
 #tooltip{
-position:fixed;
+position:absolute;
 background:black;
 color:white;
 padding:8px 10px;
