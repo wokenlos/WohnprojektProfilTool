@@ -36,7 +36,7 @@ label.onmousemove=(e)=>{
 tooltip.style.display="block"
 tooltip.innerText=cat.info
 tooltip.style.left=e.pageX+15+"px"
-tooltip.style.top=e.pageY+15+"px"
+tooltip.style.top=e.pageY+1+"px"
 }
 label.onmouseleave=()=>tooltip.style.display="none"
 
